@@ -12,7 +12,7 @@ public interface StudentRepository {
 
   //＃{}は引数(String name)で入れたものを自動で入れてくれるO／Rマッパーの機能
   @Select("SELECT * FROM students")
-  List<Student> search();
+  List<Student> searchStudent();
 
   @Select("SELECT * FROM students_courses")
   List<StudentsCourses> searchStudentsCourses();
