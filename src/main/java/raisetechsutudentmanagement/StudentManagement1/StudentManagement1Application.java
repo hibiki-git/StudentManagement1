@@ -12,7 +12,6 @@ import raisetechsutudentmanagement.StudentManagement1.repository.StudentReposito
 
 @SpringBootApplication
 public class StudentManagement1Application {
-//http://localhost8080
 
   public static void main(String[] args) {
     SpringApplication.run(StudentManagement1Application.class, args);
